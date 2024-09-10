@@ -18,8 +18,10 @@ buttons.forEach(btn => {
             } catch(e) {
                 display.style.color = "red"
                 display.value = "Error";
+
             }
         }else {
+            display.style.color = "orange"
             display.value += val;
         } 
     });
